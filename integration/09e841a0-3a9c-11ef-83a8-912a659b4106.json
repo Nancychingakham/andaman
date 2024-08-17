@@ -1,0 +1,70 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : null,
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "host" : "eu1.cloud.thethings.network",
+        "customHost" : false,
+        "port" : 8883,
+        "ssl" : true,
+        "maxBytesInMessage" : 32368,
+        "connectTimeoutSec" : 10,
+        "credentials" : {
+          "type" : "basic",
+          "username" : "nibiaa-ble-tracker@ttn",
+          "password" : "NNSXS.NLGG4OJANASF6XD2GAFWCBKIQJ7DZXZYYLXWSTY.7OMMVZPTWFKERGGDRBE2LSXCAPE6HGDHVKH6IUVX4REFUFETPBEA"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "v3/+/devices/+/up",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "v3/nibiaa-ble-tracker@ttn/devices/${devId}/down/push"
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "024871a0-35f0-11ef-83a8-912a659b4106"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "09e841a0-3a9c-11ef-83a8-912a659b4106"
+    },
+    "name" : "The Things Stack Community integration",
+    "remote" : false,
+    "routingKey" : "20dbd1a1-68fc-a58e-c894-29b41d3fd678",
+    "secret" : "g80vffjsrdt9tfaawlxt",
+    "type" : "TTN"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "09e841a0-3a9c-11ef-83a8-912a659b4106"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b529cb70-459a-11ef-83a8-912a659b4106"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_nibiaa-dev",
+      "lastUpdateTs" : 1723449180936,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

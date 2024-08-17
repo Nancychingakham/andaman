@@ -1,0 +1,82 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : null,
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "host" : "eu1.cloud.thethings.network",
+        "customHost" : false,
+        "port" : 8883,
+        "ssl" : true,
+        "maxBytesInMessage" : 32368,
+        "connectTimeoutSec" : 10,
+        "credentials" : {
+          "type" : "basic",
+          "username" : "newdata@ttn",
+          "password" : "NNSXS.PGPHLIE32H4M5S7BAWG75M4C5L4GGNZNCNCDPXA.5XRQ3JUXRGBBVRGALWM5MIIB5HFKG5LZPZ2YWL4TSUATPTBADZGQ"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "v3/+/devices/+/up",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "v3/newdata@ttn/devices/${devId}/down/push"
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "024871a0-35f0-11ef-83a8-912a659b4106"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "236a59a0-3aa2-11ef-83a8-912a659b4106"
+    },
+    "name" : "The Things Stack Community integration",
+    "remote" : false,
+    "routingKey" : "da445d32-1783-187a-ddf8-2b70e9912bc5",
+    "secret" : "2vlf70w1vvxo34ayueer",
+    "type" : "TTN"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "236a59a0-3aa2-11ef-83a8-912a659b4106"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "891a2ca0-3aaa-11ef-83a8-912a659b4106"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "236a59a0-3aa2-11ef-83a8-912a659b4106"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9032dc60-3aa2-11ef-83a8-912a659b4106"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_nibiaa-dev",
+      "lastUpdateTs" : 1723448914374,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

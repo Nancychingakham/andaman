@@ -1,0 +1,111 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "53ea6940-35ec-11ef-83a8-912a659b4106"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "eb326c10-35f3-11ef-83a8-912a659b4106"
+    },
+    "label" : null,
+    "name" : "tds1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "andaman"
+  },
+  "credentials" : {
+    "credentialsId" : "kdhdlK2EBddX7pHBytrr",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "0255df20-35f0-11ef-83a8-912a659b4106"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "eb326c10-35f3-11ef-83a8-912a659b4106"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1723859541622,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1723859541622,
+      "longValue" : 1723859541622,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "installationDate",
+      "lastUpdateTs" : 1722502356809,
+      "longValue" : null,
+      "strValue" : "2024-01-10 12:06:48"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1723858886482,
+      "longValue" : 1723858885539,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1722419782031,
+      "longValue" : null,
+      "strValue" : "11.615287"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1722419799478,
+      "longValue" : null,
+      "strValue" : "92.725784"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "meterPhoto",
+      "lastUpdateTs" : 1722509161987,
+      "longValue" : null,
+      "strValue" : "data:image/jpeg;base64,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"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
